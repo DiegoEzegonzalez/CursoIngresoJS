@@ -2,12 +2,13 @@
 function Mostar()
 {
 
-	alert("Esto funciona de maravilla"); 
-
-	/*Lo que se encuetra entre comillas es lo que se va a mostrar en el cuadro de alerta
+	alert("Esto funciona de maravilla");
 
 
+	//alert("Esto funciona de maravilla"); 
 
+
+    //Lo que se encuetra entre comillas es el texto que se muestra en pantalla.
 
 }
 

@@ -4,9 +4,9 @@ function Mostar()
 {
 	var dato;
 
-	dato=document.getElementById('elNombre').value;
+	dato=document.getElementById('elNombre').value; //get + tab+shift+I 
 
-	alert (dato);
+	alert(dato);
 
 
 
