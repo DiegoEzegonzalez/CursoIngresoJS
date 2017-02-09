@@ -14,9 +14,9 @@ function sumar()
 	numerouno=parseInt(numerouno);
 	numerodos=parseInt(numerodos);
 
-	resultado=numeroUno+numerodos;
+	resultado=numerouno+numerodos;
 
-	alert(" la suma es: "  + resultado );
+	alert(" la suma es: "+ resultado );
 
 }
 
@@ -32,18 +32,42 @@ function restar()
 	numerouno=parseInt(numerouno);
 	numerodos=parseInt(numerodos);
 
-	resultado=numeroUno-numerodos;
+	resultado=numerouno-numerodos;
 
-	alert(" la suma es: "  + resultado );
+	alert(" la resta es: "  + resultado );
 }
 
 function multiplicar()
 { 
-	
+	var numerouno;
+	var numerodos;
+	var resultado;
+
+	numerouno=document.getElementById('numeroUno').value;
+	numerodos=document.getElementById('numeroDos').value;
+
+	numerouno=parseInt(numerouno);
+	numerodos=parseInt(numerodos);
+
+	resultado=numerouno*numerodos;
+
+	alert(" la multiplicacion es: "  + resultado );
 }
 
 function dividir()
 {
-	
+	var numerouno;
+	var numerodos;
+	var resultado;
+
+	numerouno=document.getElementById('numeroUno').value;
+	numerodos=document.getElementById('numeroDos').value;
+
+	numerouno=parseInt(numerouno);
+	numerodos=parseInt(numerodos);
+
+	resultado=numerouno/numerodos;
+
+	alert(" la division es: "  + resultado );
 }
 
