@@ -1,7 +1,14 @@
 function Mostrar()
+
 {
+var clave ="Cualquier numero"; //Se le ingresa un valor incorrecto para que sea incorrecto e ingrese
 
-var clave = prompt("ingrese el número clave.");
+while (!(clave == "utn750"))
 
+{
+	 clave= prompt ("Ingrese la clave");
+}
+
+alert ("Bienvenido");
 
 }//FIN DE LA FUNCIÓN
