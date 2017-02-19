@@ -3,10 +3,10 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
-{	
-	var numerouno;
-	var numerodos;
-	var resultado;
+{
+	var numerouno
+	var numerodos
+	var resultado
 
 	numerouno=document.getElementById('numeroUno').value;
 	numerodos=document.getElementById('numeroDos').value;
@@ -14,17 +14,18 @@ function sumar()
 	numerouno=parseInt(numerouno);
 	numerodos=parseInt(numerodos);
 
-	resultado=numerouno+numerodos;
+	resultado=numerouno + numerodos;
 
-	alert(" la suma es: "+ resultado );
+	alert(" La suma es: " +resultado);
+
 
 }
 
 function restar()
 {
-	var numerouno;
-	var numerodos;
-	var resultado;
+	var numerouno
+	var numerodos
+	var resultado
 
 	numerouno=document.getElementById('numeroUno').value;
 	numerodos=document.getElementById('numeroDos').value;
@@ -32,16 +33,16 @@ function restar()
 	numerouno=parseInt(numerouno);
 	numerodos=parseInt(numerodos);
 
-	resultado=numerouno-numerodos;
+	resultado=numerouno - numerodos;
 
-	alert(" la resta es: "  + resultado );
+	alert(" La resta es: " +resultado);
 }
 
 function multiplicar()
 { 
-	var numerouno;
-	var numerodos;
-	var resultado;
+	var numerouno
+	var numerodos
+	var resultado
 
 	numerouno=document.getElementById('numeroUno').value;
 	numerodos=document.getElementById('numeroDos').value;
@@ -49,16 +50,16 @@ function multiplicar()
 	numerouno=parseInt(numerouno);
 	numerodos=parseInt(numerodos);
 
-	resultado=numerouno*numerodos;
+	resultado=numerouno * numerodos;
 
-	alert(" la multiplicacion es: "  + resultado );
+	alert(" La multiplicacio es: " +resultado);
 }
 
 function dividir()
 {
-	var numerouno;
-	var numerodos;
-	var resultado;
+	var numerouno
+	var numerodos
+	var resultado
 
 	numerouno=document.getElementById('numeroUno').value;
 	numerodos=document.getElementById('numeroDos').value;
@@ -66,8 +67,8 @@ function dividir()
 	numerouno=parseInt(numerouno);
 	numerodos=parseInt(numerodos);
 
-	resultado=numerouno/numerodos;
+	resultado=numerouno / numerodos;
 
-	alert(" la division es: "  + resultado );
+	alert(" La division es: "+resultado);
 }
 

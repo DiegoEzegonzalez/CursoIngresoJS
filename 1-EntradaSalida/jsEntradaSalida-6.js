@@ -3,34 +3,20 @@ transformarlos a enteros (parseInt) y Sumarlos.
 Mostar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	var numero1;
-	var numero2;
+	var numerouno;
+	var numerodos;
 	var resultado;
-	/*
-	numero1=parseInt(numero1);
-	numero2=parseInt(numero2);
-*/
 
-	numero1=document.getElementById('numeroUno').value;
-	numero2=document.getElementById('numeroDos').value;	
-
-	numero1=parseInt(numero1);
-	numero2=parseInt(numero2);
-
-	resultado=numero1+numero2;
-
-	alert("el resultado: "+ resultado);
-
-
-	//alert(numero1+numero2); //concatena
-	//alert(parseInt(numero1)+parseInt(numero2));// funciona
+	numerouno=document.getElementById('numeroUno').value;
+	numerodos=document.getElementById('numeroDos').value;
+ 
+	numerouno= parseInt (numerouno); //El parseInt transforma la variable a numero 
+	numerodos= parseInt (numerodos);
 	
-	/*
 
-	numero1=parseInt(numero1);
-	numero2=parseInt(numero2);
-	alert(numero1+numero2);
-	*/
+	resultado=numerouno + numerodos;
+
+	alert(" Su resultado es: " 	+resultado );
 
 
 

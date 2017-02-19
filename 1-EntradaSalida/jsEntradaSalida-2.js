@@ -2,23 +2,19 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	var nombre;
+	var nombre 
+	/*Asignamos una variable con su nombre correspondiente, pueden asignarse varias variables
+	Toda variable va con minuscula
+	*/
 
-	nombre=prompt("Por favor ingrese su nombre", "nombre");
+	nombre=prompt ("Ingrese su nombre");
 
+	/*El prompt toma datos de variables o devuelve datos de esas variables
+	*/
 
-	alert(nombre);
+	alert(" Su nombre es: "	+ nombre); 
 
-
-
-/*El var es la variable con la que va a trabajar el prompt, el prompt siempre toma datos de la variable que se encuentran 
-del otro lado del signo =
-
-dato de la variable=prompt("mensaje a mostrar en ventana", "valor")
-El prompt es la caja que le muestra al usuario para que ingrese un datos, por ejemplo "Ingresa tu nombre"
-*/
-
-
+	//Puedo concatenar un texto juntando una cadena de texto y una variable ya asignada para mostrar con la sigla +
 
 
 }
