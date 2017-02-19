@@ -6,13 +6,11 @@ var edad;
 
 edad=document.getElementById('edad').value;
 
-if(edad==15)
+if (edad==15)
+		{
+			alert("Niña bonita hija de puta");
 
-	{
-		alert("La niña bonita");
-
-	}
-
+		}
 
 
 
