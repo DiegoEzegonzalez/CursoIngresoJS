@@ -5,7 +5,7 @@ function Mostrar()
 	var acumulador=0;
 	var numero;
 	var promedio;
-	var negatico=1;
+	var negativo=1;
 
 	while ( contador < 5)
 	{
