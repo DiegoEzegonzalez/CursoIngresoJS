@@ -6,12 +6,12 @@ function Mostrar()
 
 	nota=Math.floor((Math.random() * 10) + 1);
 
-	if (nota ==8 || nota < )
+	if (nota ==9 || nota ==10 )
 		{
 			alert("Excelente");
 		}
 		else
-			if (nota >3 && nota <9)
+			if (nota >3 && nota <8)
 				{
 					alert("Aprobado");
 				}
