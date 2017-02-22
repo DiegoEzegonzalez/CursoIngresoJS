@@ -2,28 +2,24 @@ function Mostrar()
 {
 //tomo la edad  
 
-var edad
+var edad;
 
 edad=document.getElementById('edad').value;
 
-if(edad >17)
+if (edad <13)
+	{
+		alert("pendejo de mierda");
+	}
+	else
+		if (edad >12 && edad <18)
+			{
+				alert("Sos un pelotudo");
+			}
+	else 
+	{
+		alert("Sos un boludo grande");
+	}
 
-{
-	alert("Usted es mayor de edad");
-
-}
-
-if(edad>12 && edad<18)
-
-{
-	alert("Usted es un adolescente");
-}
-
-else 
-
-{
-	alert("Es un niño");
-}
 
 
 

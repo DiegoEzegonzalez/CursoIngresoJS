@@ -15,5 +15,10 @@ if(!(edad>12 && edad<18)) //Colocando el signo de admiracion niego toda la condi
 		alert("Usted no es un adolescente");
 	}
 
+	else 
+			{
+				alert("Usted es un pelotudo");
+			}
+
 
 }//FIN DE LA FUNCIÓN
