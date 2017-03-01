@@ -199,6 +199,48 @@ Parcial
 
 
 
+	8-
+
+	function Mostrar()
+{
+
+	var	numero;
+	var respuesta="si";
+	var contador=0;
+	var numPares;
+	var ContadorPares=0;
+	var promedio;
+	var suma;
+
+
+
+	while ( respuesta == "si")
+	{
+		numero=prompt("Ingrese un numero porfavor");
+		numero=parseInt(numero);
+		respuesta=prompt("Desea ingresar otro numero?");
+
+		if (numero >0)
+		{
+			contador++;	
+
+		}
+
+		else
+		{
+			alert("El numero ingresado es incorrecto");
+
+		}
+
+     }
+
+     document.write()
+
+
+}//FIN DE LA FUNCIÓN
+
+
+
 
 
 }
