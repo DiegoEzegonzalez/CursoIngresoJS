@@ -201,40 +201,32 @@ Parcial
 
 	8-
 
-	function Mostrar()
-{
+	var numeroAnterior;
+	var numeroIngresado;
+	var tieneDivisor="no";
+	var numRecorrido;
+	
 
-	var	numero;
-	var respuesta="si";
-	var contador=0;
-	var numPares;
-	var ContadorPares=0;
-	var promedio;
-	var suma;
+	numeroIngresado=prompt("Ingrese el numero");
+	numeroIngresado=parseInt (numeroIngresado);
 
-
-
-	while ( respuesta == "si")
+	for (numRecorrido=numeroIngresado-1;numRecorrido>2;numRecorrido--)
 	{
-		numero=prompt("Ingrese un numero porfavor");
-		numero=parseInt(numero);
-		respuesta=prompt("Desea ingresar otro numero?");
-
-		if (numero >0)
+		tieneDivisor="no";
+		for (numeroAnterior=2;numeroAnterior<(numRecorrido/2);numeroAnterior++)
 		{
-			contador++;	
-
+			if (numRecorrido % numeroAnterior==0)
+			{
+				tieneDivisor="si";
+				break;
+			}
 		}
 
-		else
+
+		if (tieneDivisor=="no")
 		{
-			alert("El numero ingresado es incorrecto");
-
+			console.log("Es primo" + numRecorrido);
 		}
-
-     }
-
-     document.write()
 
 
 }//FIN DE LA FUNCIÓN
